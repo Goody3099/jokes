@@ -11,10 +11,25 @@
       <h1>API Joker</h1>
     </header>
     <section>
+    <form>
+       <fieldset>
+          <legend>Select a Joke Type</legend>
+          <p>
+             <label>Options</label>
+             <select id = "myList">
+               <option value = "General">General</option>
+               <option value = "Knock Knock">Knock Knock</option>
+               <option value = "Programming">Programming</option>
+               <option value = "Random">Random</option>
+             </select>
+          </p>
+       </fieldset>
+    </form>
       <button class="request-joke-btn">Tell me a joke!</button>
       <p class="joke-setup">
         <!-- Joke Setup Goes Here -->
       </p>
+      <button class="request-punchline-btn"> Punchline</button>
       <p class="joke-punchline">
         <!-- Punchline Goes Here -->
       </p>
